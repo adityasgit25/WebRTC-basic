@@ -1,0 +1,27 @@
+- There's also HLS, but it has a delay of 5-7 seconds. -> cricket matches
+- webrtc -> few milli seconds
+- how the browser send media to another browser here?
+- webrtc is less secure, we can know the ip -> location.
+- After exchanging the ips we don't need server.
+- Iced candidates
+- Actually you send SDPs.
+- Turn server basically acts as a proxy server.
+- Ice candidates are given by the stun server.
+- SDP is created irrespective of you ask for video or not.
+- How when viewing clicking on someone's video, increases its video quality like from 360p to 720p, its via simulcast.
+- Browser only sends the 360p or 480p or 720p, because the SFU doesn't do any transcoding of the videos.
+- Turn server and SFU.
+- Youtube uses HLS.
+- when you want to push events, you use web socket server.
+- For two-way communication like omegele we use webrtc, and for like streaming (youtube streaming) we use hls.
+- Basically follow the steps like what we have to do first, its just like the DSA. Do that like you are doing DSA.
+- In strict mode, things run twice.
+- Ice-candidates are basically used to find the best route to send the data, so whenever data is send,ice-candidates also transmit between the two for the best routes, and so ice-candidates also moves through the server, so they also store the address of the stun server.
+- Ice-candidates connect peer to peer (browser to browser), if its not possible then we use the turn server.
+- And also each ice-candidate has a priority. 
+- Tracks and streams are not of Webrtc.
+- If you want to make like omegle, then you have to use receiver sender both side, basically 4 offers.
+use peer js for that better.
+- 
+
+
