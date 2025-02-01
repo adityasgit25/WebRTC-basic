@@ -22,6 +22,6 @@
 - Tracks and streams are not of Webrtc.
 - If you want to make like omegle, then you have to use receiver sender both side, basically 4 offers.
 use peer js for that better.
-- 
+- So basically in the room logic, ice-candidates are sent to the users that are in the same room.
 
 
