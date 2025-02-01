@@ -5,7 +5,8 @@ A simple WebRTC-based video chat application that enables peer-to-peer communica
 ## Features
 - Peer-to-peer video calling using WebRTC
 - Simple UI with minimal setup
-- No external servers required for media streaming
+- Screen Sharing functionality
+- Join room functionality
 
 ## Technologies Used
 - WebRTC
